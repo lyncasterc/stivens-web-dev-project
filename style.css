@@ -17,11 +17,11 @@ body {
     
 }
 
-.choice-boxes a {
-    /* display: block; */
+/* .choice-boxes a {
+    display: block;
     text-align: center;
     text-decoration: none;
-}
+} */
 
 .choice-boxes-btn {
 
@@ -34,6 +34,7 @@ body {
     /* display: block; */
     transition: color ease-in .2s;
     transition: background ease-in .2s;
+    text-decoration: none;
    
     
 
@@ -52,6 +53,41 @@ body {
     margin-top: 40px ;
 }
 
+#start-over-btn{
+    font-size: 1.5rem;
+}
+
+cite {
+    display: block;
+    font-size: .70rem;
+    
+}
+
+cite a {
+    color: #fff;
+    transition: all ease .3s
+}
+
+cite a:hover {
+    opacity: 0.7;
+
+}
+
+
+#go-back-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: ease all .3s
+}
+
+#go-back-btn:hover {
+    opacity: 0.7;
+}
+
+#go-back-btn:active {
+    opacity: 0.5;
+}
 /* Home  */
 
 .heading{
@@ -77,3 +113,33 @@ body {
 /* Wake Up Page */
 
 
+/* Snooze Page */
+#snooze-heading {
+    font-size: 4rem;
+    padding-top: 40px;
+}
+
+#snooze-para, #wake-up-para{
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+/* Mediq Queries */
+@media screen and (max-width: 1440px){
+    .choice-boxes {
+        padding-top: 80px;
+        
+    }
+}
+
+/* @media screen and (max-width: 650px){
+    .choice-boxes {
+        flex-direction: column;
+        
+    }
+
+    .choice-two{
+        padding-top: 40px;
+        
+    }
+} */
